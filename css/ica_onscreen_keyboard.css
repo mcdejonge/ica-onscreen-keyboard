@@ -1,0 +1,97 @@
+.ica-onscreen-keyboard-keyboard-wrapper {
+  display: block;
+  width: 800px;
+}
+
+.ica-onscreen-keyboard-keyboard-type-numeric_no_decimal,
+.ica-onscreen-keyboard-keyboard-type-numeric {
+  width: 172px;
+}
+.ica-onscreen-keyboard-row {
+  display: block;
+  float: none;
+  height: 50px;
+  padding: 0px;
+  margin-bottom: 2px;
+}
+.ica-onscreen-keyboard-button {
+  height: 50px;
+  min-width: 35px;
+  padding: 0px;
+  display: block;
+  float: left;
+  margin: 0px;
+  background: url(../images/keyboard_up_left.png) no-repeat;
+  padding-left: 20px;
+
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 90%;
+  cursor: pointer;
+  cursor: hand;
+
+}
+.ica-onscreen-keyboard-button-inner {
+  background: url(../images/keyboard_up_right.png) right top no-repeat;
+  padding: 0px;
+  padding-right: 22px;
+  height: 50px;
+}
+
+/* TODO why does hover not work? */
+.ica-onscreen-keyboard-button:hover {
+  background: url(../images/keyboard_down_left.png) no-repeat;
+  text-decoration: underline;
+}
+
+.ica-onscreen-keyboard-button-inner:hover {
+  background: url(../images/keyboard_down_right.png) right top no-repeat;}
+
+
+.ica-onscreen-keyboard-button-display-full {
+  padding-top: 17px;
+}
+.ica-onscreen-keyboard-button-display-top {
+  padding-top: 8px;
+  font-size: 80%;
+  color: #999;
+  margin-bottom: 4px;
+}
+
+
+/* specific settings for specific keys */
+.ica-onscreen-keyboard-button-space {
+  display: block;
+  float: none;
+  width: 60%;
+  margin: auto;
+}
+.ica-onscreen-keyboard-button-backspace {
+  width: 59px;
+}
+.ica-onscreen-keyboard-button-backspace .ica-onscreen-keyboard-button-display-full {
+  font-size: 140%;
+  padding-left: 4px;
+}
+.ica-onscreen-keyboard-button-tab{
+  width: 59px;
+}
+.ica-onscreen-keyboard-button-tab .ica-onscreen-keyboard-button-display-full {
+  font-size: 110%;
+  padding-left: 4px;
+}
+
+.ica-onscreen-keyboard-button-right_shift,
+.ica-onscreen-keyboard-button-left_shift {
+  width: 102px;
+  text-align: center;
+}
+
+.ica-onscreen-keyboard-button-numeric_00 {
+    font-size: 60%;
+}
+
+.ica-onscreen-keyboard-button-numeric_00 .ica-onscreen-keyboard-button-display-full {
+}
+
